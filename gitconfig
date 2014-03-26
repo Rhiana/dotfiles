@@ -1,0 +1,11 @@
+[user]
+	name = Rhiana Heath
+	email = rhiana.heath@strategicdata.com.au
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[push]
+	default = simple
+[color]
+	ui = true
+[diff]
+	tool = diffuse
