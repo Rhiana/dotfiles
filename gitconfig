@@ -3,6 +3,11 @@
 	email = rhiana.heath@strategicdata.com.au
 [alias]
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	st = status
+	ds = diff --stat
+	dc = diff --cached
+	dsc = diff --stat --cached
+	cv = commit -v
 [push]
 	default = simple
 [color]
